@@ -62,9 +62,9 @@
 		inp=inp.replace("vmess://","");
 		inp=atob(inp);
 		if (!(inp.includes("downloader"))){
-		var mcibase=`{"add":"mci.hostgozar.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
-		var mtnbase=`{"add":"mtn.hostgozar.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
-		var adslbase=`{"add":"adsl.hostgozar.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
+		var mcibase=`{"add":"mci.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
+		var mtnbase=`{"add":"mtn.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
+		var adslbase=`{"add":"adsl.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
 		inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");
 		const tdata = JSON.parse(inp);
 		mcibase=mcibase.replace("mostafa",tdata.ps+"mci");

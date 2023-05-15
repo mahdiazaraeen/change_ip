@@ -65,7 +65,7 @@
 		var mcibase=`{"add":"mci.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
 		var mtnbase=`{"add":"mtn.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
 		var adslbase=`{"add":"adsl.its-mono.space","aid":"0","alpn":"","host":"mainhost","id":"e2440fba-21f0-4b45-8dee-6f165132e646","net":"ws","path":"/downloader/mainport","port":"443","ps":"mostafa","scy":"auto","sni":"snihost","tls":"tls","type":"","v":"2"}`;
-		inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");
+		inp=inp.replace("hostgozar.store","its-mono.space");inp=inp.replace("hostgozar.store","its-mono.space");inp=inp.replace("hostgozar.store","its-mono.space");
 		const tdata = JSON.parse(inp);
 		mcibase=mcibase.replace("mostafa",tdata.ps+"mci");
 		mtnbase=mtnbase.replace("mostafa",tdata.ps+"mtn");
@@ -121,9 +121,9 @@ if ((inp.includes("downloader"))){
 		mcibase=mcibase.replace("mci","mci");mcibase=mcibase.replace("mtn","mci");mcibase=mcibase.replace("adsl","mci");mcibase=mcibase.replace("mci","mci");mcibase=mcibase.replace("mtn","mci");mcibase=mcibase.replace("adsl","mci");
 		mtnbase=mtnbase.replace("mci","mtn");mtnbase=mtnbase.replace("mtn","mtn");mtnbase=mtnbase.replace("adsl","mtn");mtnbase=mtnbase.replace("mci","mtn");mtnbase=mtnbase.replace("mtn","mtn");mtnbase=mtnbase.replace("adsl","mtn");
 		adslbase=adslbase.replace("mci","adsl");adslbase=adslbase.replace("mtn","adsl");adslbase=adslbase.replace("adsl","adsl");adslbase=adslbase.replace("mci","adsl");adslbase=adslbase.replace("mtn","adsl");adslbase=adslbase.replace("adsl","adsl");
-		mcibase=mcibase.replace("hostgozar.store","hostgozar.space");mcibase=mcibase.replace("hostgozar.store","hostgozar.space");mcibase=mcibase.replace("hostgozar.store","hostgozar.space");
-		mtnbase=mtnbase.replace("hostgozar.store","hostgozar.space");mtnbase=mtnbase.replace("hostgozar.store","hostgozar.space");mtnbase=mtnbase.replace("hostgozar.store","hostgozar.space");
-		adslbase=adslbase.replace("hostgozar.store","hostgozar.space");adslbase=adslbase.replace("hostgozar.store","hostgozar.space");adslbase=adslbase.replace("hostgozar.store","hostgozar.space");
+		mcibase=mcibase.replace("hostgozar.store","its-mono.space");mcibase=mcibase.replace("hostgozar.store","its-mono.space");mcibase=mcibase.replace("hostgozar.store","its-mono.space");
+		mtnbase=mtnbase.replace("hostgozar.store","its-mono.space");mtnbase=mtnbase.replace("hostgozar.store","its-mono.space");mtnbase=mtnbase.replace("hostgozar.store","its-mono.space");
+		adslbase=adslbase.replace("hostgozar.store","its-mono.space");adslbase=adslbase.replace("hostgozar.store","its-mono.space");adslbase=adslbase.replace("hostgozar.store","its-mono.space");
 			var mci = new QRCode("mci",
 			"vmess://"+btoa(mcibase));
 		var mtn = new QRCode("mtn",
@@ -161,7 +161,7 @@ function copymci(){
 		
 		
 		if (inp.includes("vless://")) {if (!(inp.includes("downloader"))){
-		inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");inp=inp.replace("hostgozar.store","hostgozar.space");
+		inp=inp.replace("hostgozar.store","its-mono.space");inp=inp.replace("hostgozar.store","its-mono.space");inp=inp.replace("hostgozar.store","its-mono.space");
 		var mcibase="dmxlc3M6Ly9tYWludWlkQG1jaS5ob3N0Z296YXIuc3BhY2U6NDQzP3BhdGg9JTJGZG93bmxvYWRlciUyRm1haW5wb3J0JnNlY3VyaXR5PXRscyZlbmNyeXB0aW9uPW5vbmUmaG9zdD1tYWluaG9zdCZ0eXBlPXdzJnNuaT1zbmlob3N0I21haW5uYW1l";
 		var mtnbase="dmxlc3M6Ly9tYWludWlkQG10bi5ob3N0Z296YXIuc3BhY2U6NDQzP3BhdGg9JTJGZG93bmxvYWRlciUyRm1haW5wb3J0JnNlY3VyaXR5PXRscyZlbmNyeXB0aW9uPW5vbmUmaG9zdD1tYWluaG9zdCZ0eXBlPXdzJnNuaT1zbmlob3N0I21haW5uYW1l";
 		var adslbase="dmxlc3M6Ly9tYWludWlkQGFkc2wuaG9zdGdvemFyLnNwYWNlOjQ0Mz9wYXRoPSUyRmRvd25sb2FkZXIlMkZtYWlucG9ydCZzZWN1cml0eT10bHMmZW5jcnlwdGlvbj1ub25lJmhvc3Q9bWFpbmhvc3QmdHlwZT13cyZzbmk9c25paG9zdCNtYWlubmFtZQ==";
@@ -243,9 +243,9 @@ function copymci(){
 		mcibase=mcibase.replace("mci","mci");mcibase=mcibase.replace("mtn","mci");mcibase=mcibase.replace("adsl","mci");mcibase=mcibase.replace("mci","mci");mcibase=mcibase.replace("mtn","mci");mcibase=mcibase.replace("adsl","mci");
 		mtnbase=mtnbase.replace("mci","mtn");mtnbase=mtnbase.replace("mtn","mtn");mtnbase=mtnbase.replace("adsl","mtn");mtnbase=mtnbase.replace("mci","mtn");mtnbase=mtnbase.replace("mtn","mtn");mtnbase=mtnbase.replace("adsl","mtn");
 		adslbase=adslbase.replace("mci","adsl");adslbase=adslbase.replace("mtn","adsl");adslbase=adslbase.replace("adsl","adsl");adslbase=adslbase.replace("mci","adsl");adslbase=adslbase.replace("mtn","adsl");adslbase=adslbase.replace("adsl","adsl");
-		mcibase=mcibase.replace("hostgozar.store","hostgozar.space");mcibase=mcibase.replace("hostgozar.store","hostgozar.space");mcibase=mcibase.replace("hostgozar.store","hostgozar.space");
-		mtnbase=mtnbase.replace("hostgozar.store","hostgozar.space");mtnbase=mtnbase.replace("hostgozar.store","hostgozar.space");mtnbase=mtnbase.replace("hostgoza.store","hostgozar.space");
-  adslbase=adslbase.replace("hostgozar.store","hostgozar.space");adslbase=adslbase.replace("hostgozar.store","hostgozar.space");adslbase=adslbase.replace("hostgoza.store","hostgozar.space");
+		mcibase=mcibase.replace("hostgozar.store","its-mono.space");mcibase=mcibase.replace("hostgozar.store","its-mono.space");mcibase=mcibase.replace("hostgozar.store","its-mono.space");
+		mtnbase=mtnbase.replace("hostgozar.store","its-mono.space");mtnbase=mtnbase.replace("hostgozar.store","its-mono.space");mtnbase=mtnbase.replace("hostgoza.store","its-mono.space");
+  adslbase=adslbase.replace("hostgozar.store","its-mono.space");adslbase=adslbase.replace("hostgozar.store","its-mono.space");adslbase=adslbase.replace("hostgoza.store","its-mono.space");
 		mcibase=mcibase.replace("sni=","sni="+randsni);
 		mtnbase=mtnbase.replace("sni=","sni="+randsni);
 		adslbase=adslbase.replace("sni=","sni="+randsni);
